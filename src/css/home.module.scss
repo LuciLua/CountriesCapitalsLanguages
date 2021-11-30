@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend&family=Orbitron:wght@600&display=swap");
+
+.container {
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+  font-family: "Lexend";
+
+  .lista {
+    list-style: none;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+
+    overflow: hidden;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(33, 33, 33);
+
+    .itemsDaLista {
+      padding: 20px;
+      position: relative;
+
+      width: fit-content;
+      min-width: 400px;
+      max-width: 400px;
+
+      height: fit-content;
+      min-height: 350px;
+
+      p {
+        background-color: rgb(53, 53, 53);
+        width: 100%;
+        position: relative;
+      }
+
+      .allDetalhes {
+        background-color: rgb(21, 21, 21);
+        padding: 20px 0;
+        
+
+        .detalhes {
+          display: flex;
+          border-radius: 20px;
+          padding: 10px 15px;
+
+          margin: 10px 5px;
+          width: fit-content;
+          border: 1px solid rgb(255, 0, 225);
+        }
+
+        .quantidadeELinguas {
+          display: flex;
+          background-color: rgba(62, 63, 67, 0.186);
+
+          .detalhes {
+            &:nth-child(1) {
+              border: none;
+            }
+            &:nth-child(2) {
+              border: 1px solid rgb(68, 0, 255);
+            }
+            &:nth-child(3) {
+              border: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
